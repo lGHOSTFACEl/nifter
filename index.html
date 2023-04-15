@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="./image/logo.svg" type="image/x-icon">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Nifter</title>
+</head>
+
+<body>
+	<div class="cursor"></div>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="logo">
+					<div class="close__menu-desktop">
+						<div class="header-neon"></div>
+						<img class="logo-img" src="./image/logo.svg" alt="logo">
+						<a class="logo-text" href="#!">
+							Nifter
+						</a>
+					</div>
+					<div class="close__menu-desktop">
+						<a class="mobile__menu-button" href="#!">
+							<img src="./image/mobile__menu.svg" alt="">
+						</a>
+					</div>
+					<div class="overlay"></div>
+					<nav class="mobile__menu none" id="mobileMenu">
+						<div class="nav__mobile-logo">
+							<img class="logo-img" src="./image/logo.svg" alt="logo">
+							<a href="#!" class="logo-text">
+								Nifter Menu
+							</a>
+						</div>
+						<div class="nav__mobile-polygon">
+							<div class="nav__mobile-polygon-img">
+								<img src="./image/digital-creator/polygon.png" alt="">
+							</div>
+						</div>
+						<ul class="nav__list-mobile">
+							<li class="nav__link-mobile">
+								<span><img src="./image/mobile-menu/home.svg" alt="home"></span><a href="#">Home</a>
+							</li>
+							<li class="nav__link-mobile">
+								<span><img src="./image/mobile-menu/market.svg" alt="market"></span><a href="#">Market</a>
+							</li>
+							<li class="nav__link-mobile">
+								<span><img src="./image/mobile-menu/discrover.svg" alt="discover"></span><a href="#">Discover</a>
+							</li>
+							<li class="nav__link-mobile">
+								<span><img src="./image/mobile-menu/community.svg" alt="community"></span><a href="#">Community</a>
+							</li>
+							<li class="nav__link-mobile">
+								<span><img src="./image/mobile-menu/wallet.svg" alt="wallet"></span><a href="#">Wallet</a>
+							</li>
+						</ul>
+						<h3>
+							The world's largest digital marketplace for
+							crypto collections
+							tokens (NFT) Buy, sell and discover
+							exclusive digital assets
+						</h3>
+					</nav>
+				</div>
+				<div class="mobile__menu-top">
+					<div class="mobile__menu-logo">
+						<img class="logo-img" src="./image/logo.svg" alt="logo">
+						<a class="logo-text" href="#!">
+							Nifter
+						</a>
+					</div>
+					<a class="mobile__menu-button" href="#!">
+						<img src="./image/mobile__menu.svg" alt="">
+					</a>
+				</div>
+				<nav class="header__nav">
+					<ul class="nav__list">
+						<li class="nav__link">
+							<a href="#">Home</a>
+						</li>
+						<li class="nav__link">
+							<a href="#">Market</a>
+						</li>
+						<li class="nav__link">
+							<a href="#">Discover</a>
+						</li>
+						<li class="nav__link">
+							<a href="#">Community</a>
+						</li>
+						<li class="nav__link">
+							<a href="#">Wallet</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__search">
+					<div class="search__form">
+						<img src="./image/header-main/search-icon.svg" alt="search-icon">
+						<input class="search" type="search" placeholder="Search">
+					</div>
+					<button class="header__btn" id="header__btn-search">Explor</button>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="discover container">
+				<div class="discover__description">
+					<div class="discover__description-header">
+						<h2 class="discover__description-header-text nifter__heading">
+							Disсover,
+							collect and sell
+							dope NFTs
+						</h2>
+						<p class="discover__description-paragraph">
+							The wold largest digital marketplace for crypto collectibles
+							and non-fungible tokens (NFTs)
+						</p>
+						<div class="discover__description-buttons">
+							<a class="header__btn" href="#!">Explore</a>
+							<a class="description__create nifter__dark-btn" href="#!">Create</a>
+						</div>
+					</div>
+					<div class="description__polygon-statistics">
+						<div class="polygon__statistics">
+							<img src="./image/header-main/polygon-icon.svg" alt="polygon-statistics">
+							<div class="polygon__statistics-item">
+								<p class="polygon-statistics-num">
+									42k+
+								</p>
+								<p class="polygon-statistics-text">
+									User Active
+								</p>
+							</div>
+						</div>
+						<div class="polygon__statistics">
+							<img src="./image/header-main/polygon-icon.svg" alt="">
+							<div class="polygon__statistics-item">
+								<p class="polygon-statistics-num">
+									8k+
+								</p>
+								<p class="polygon-statistics-text">
+									Artworks
+								</p>
+							</div>
+						</div>
+						<div class="polygon__statistics">
+							<img src="./image/header-main/polygon-icon.svg" alt="">
+							<div class="polygon__statistics-item">
+								<p class="polygon-statistics-num">
+									2k+
+								</p>
+								<p class="polygon-statistics-text">
+									Artist
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="discover__airdrop">
+					<div class="airdrop__statue">
+						<div class="airdrop__statue-img">
+							<img src="./image/header-main/statue.png" alt="">
+							<div class="discover-neon"></div>
+						</div>
+						<div class="airdrop__table">
+							<div class="airdrop__table-pice table-columns">
+								<p class="table-text airdrop__table-margin">
+									Current Bid
+								</p>
+								<h2 class="table-number airdrop__table-margin">
+									9.00 ETH
+								</h2>
+								<p class="table-usd" id="eth-rate">
+
+								</p>
+							</div>
+							<div class="airdrop__table-timer table-columns">
+								<h2 class="table-text airdrop__table-margin">
+									Auction ends in
+								</h2>
+								<div class="table-timer">
+									<div class="timer-number">
+										<h2 class="table-number airdrop__table-margin" id="hours">10</h2>
+										<p class="table-paragraph">Hours</p>
+									</div>
+									<div class="timer-number">
+										<h2 class="table-number airdrop__table-margin" id="mins">10</h2>
+										<p class="table-paragraph">Mins</p>
+									</div>
+									<div class="timer-number">
+										<h2 class="table-number airdrop__table-margin" id="secs">10</h2>
+										<p class="table-paragraph">Secs</p>
+									</div>
+								</div>
+							</div>
+							<div class="airdrop__table-btn table-columns">
+								<a class="table-btn" href="#!">Bid now</a>
+								<a class="table-btn" href="#!">See item</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="seller container">
+				<div class="seller__header">
+					<h2 class="seller__title nifter__heading ">
+						Top seller 8
+					</h2>
+					<div class="seller__neon">
+					</div>
+					<nav class="seller__header-nav seller__menu-text">
+						<button class="seller__menu-text" id="seller__menu">
+							Today
+							<img src="./image/top-seller/arrow.svg" alt="">
+						</button>
+						<ul>
+							<li>In one year</li>
+							<li>In 6 month</li>
+							<li>In one month</li>
+							<li>In one week</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="seller__grid">
+					<div class="seller__grid-block">
+						<img src="./image/top-seller/jorg-george.jpg" alt="">
+						<div class="seller__grid-info">
+							<h2 class="seller__grid-name">
+								Jorg George
+							</h2>
+							<div class="seller__grid-earned">
+								<h2 class="seller__grid-earned-sum">
+									893.6
+								</h2>
+								<h2 class="seller__grid-earned-sum-currency">
+									Eth
+								</h2>
+							</div>
+							<div class="seller__grid-icons">
+								<div class="seller__grid-icon">
+									<img class="you-friend" src="./image/soc-icons/add-friend.svg" alt="friend">
+								</div>
+								<a class="seller__grid-icon" href="tg://resolve?">
+									<img src="./image/soc-icons/tg.svg" alt="telegram">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="seller__grid-block">
+						<img src="./image/top-seller/maria-stanton.jpg" alt="">
+						<div class="seller__grid-info">
+							<h2 class="seller__grid-name">
+								Maria Stanton
+							</h2>
+							<div class="seller__grid-earned">
+								<h2 class="seller__grid-earned-sum">
+									830.1
+								</h2>
+								<h2 class="seller__grid-earned-sum-currency">
+									Eth
+								</h2>
+							</div>
+							<div class="seller__grid-icons">
+								<div class="seller__grid-icon">
+									<img class="you-friend" src="./image/soc-icons/add-friend.svg" alt="friend">
+								</div>
+								<a class="seller__grid-icon" href="tg://resolve?">
+									<img src="./image/soc-icons/tg.svg" alt="telegram">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="seller__grid-block">
+						<img src="./image/top-seller/kaiya-berti.jpg" alt="">
+						<div class="seller__grid-info">
+							<h2 class="seller__grid-name">
+								Kaiya Berti
+							</h2>
+							<div class="seller__grid-earned">
+								<h2 class="seller__grid-earned-sum">
+									776.2
+								</h2>
+								<h2 class="seller__grid-earned-sum-currency">
+									Eth
+								</h2>
+							</div>
+							<div class="seller__grid-icons">
+								<div class="seller__grid-icon">
+									<img class="you-friend" src="./image/soc-icons/add-friend.svg" alt="friend">
+								</div>
+								<a class="seller__grid-icon" href="tg://resolve?">
+									<img src="./image/soc-icons/tg.svg" alt="telegram">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="seller__grid-block">
+						<img src="./image/top-seller/ben.jpg" alt="">
+						<div class="seller__grid-info">
+							<h2 class="seller__grid-name">
+								Ben Fletcher
+							</h2>
+							<div class="seller__grid-earned">
+								<h2 class="seller__grid-earned-sum">
+									673.7
+								</h2>
+								<h2 class="seller__grid-earned-sum-currency">
+									Eth
+								</h2>
+							</div>
+							<div class="seller__grid-icons">
+								<div class="seller__grid-icon">
+									<img class="you-friend" src="./image/soc-icons/add-friend.svg" alt="friend">
+								</div>
+								<a class="seller__grid-icon" href="tg://resolve?">
+									<img src="./image/soc-icons/tg.svg" alt="telegram">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="seller__grid-block">
+						<img src="./image/top-seller/anna-enabel.jpg" alt="">
+						<div class="seller__grid-info">
+							<h2 class="seller__grid-name">
+								Anna Enabel
+							</h2>
+							<div class="seller__grid-earned">
+								<h2 class="seller__grid-earned-sum">
+									662.9
+								</h2>
+								<h2 class="seller__grid-earned-sum-currency">
+									Eth
+								</h2>
+							</div>
+							<div class="seller__grid-icons">
+								<div class="seller__grid-icon">
+									<img class="you-friend" src="./image/soc-icons/add-friend.svg" alt="friend">
+								</div>
+								<a class="seller__grid-icon" href="tg://resolve?">
+									<img src="./image/soc-icons/tg.svg" alt="telegram">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="seller__grid-block">
+						<img src="./image/top-seller/zain-berty.jpg" alt="">
+						<div class="seller__grid-info">
+							<h2 class="seller__grid-name">
+								Zain Berty
+							</h2>
+							<div class="seller__grid-earned">
+								<h2 class="seller__grid-earned-sum">
+									644.5
+								</h2>
+								<h2 class="seller__grid-earned-sum-currency">
+									Eth
+								</h2>
+							</div>
+							<div class="seller__grid-icons">
+								<div class="seller__grid-icon">
+									<img class="you-friend" src="./image/soc-icons/add-friend.svg" alt="friend">
+								</div>
+								<a class="seller__grid-icon" href="tg://resolve?">
+									<img src="./image/soc-icons/tg.svg" alt="telegram">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="seller__grid-block">
+						<img src="./image/top-seller/jordyn-nis.jpg" alt="">
+						<div class="seller__grid-info">
+							<h2 class="seller__grid-name">
+								Jordyn Nis
+							</h2>
+							<div class="seller__grid-earned">
+								<h2 class="seller__grid-earned-sum">
+									626.2
+								</h2>
+								<h2 class="seller__grid-earned-sum-currency">
+									Eth
+								</h2>
+							</div>
+							<div class="seller__grid-icons">
+								<div class="seller__grid-icon">
+									<img class="you-friend" src="./image/soc-icons/add-friend.svg" alt="friend">
+								</div>
+								<a class="seller__grid-icon" href="tg://resolve?">
+									<img src="./image/soc-icons/tg.svg" alt="telegram">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="seller__grid-block">
+						<img src="./image/top-seller/dav.jpg" alt="">
+						<div class="seller__grid-info">
+							<h2 class="seller__grid-name">
+								Dav Gustman
+							</h2>
+							<div class="seller__grid-earned">
+								<h2 class="seller__grid-earned-sum">
+									579.4
+								</h2>
+								<h2 class="seller__grid-earned-sum-currency">
+									Eth
+								</h2>
+							</div>
+							<div class="seller__grid-icons">
+								<div class="seller__grid-icon">
+									<img class="you-friend" src="./image/soc-icons/add-friend.svg" alt="friend">
+								</div>
+								<a class="seller__grid-icon" href="tg://resolve?">
+									<img src="./image/soc-icons/tg.svg" alt="telegram">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="auction container">
+				<div class="auction__header">
+					<h2 class="nifter__heading">
+						Live Auction
+					</h2>
+				</div>
+				<div class="auction__swiper">
+					<div class="auction__swiper-main">
+						<div class="auction__container swiper-container">
+							<div class="auction__wrapper swiper-wrapper">
+								<div class="auction__slide swiper-slide">
+									<div class="slide__block">
+										<div class="auction__nfts">
+											<img class="auction__nft" src="./image/live-auction/thegragonman.jpg" alt="thegragonman">
+											<div class="auction__nft-likes"><img data-id="icon-like"
+													src="./image/live-auction/auction-likes.svg" alt="like"></div>
+											<img class="auction__nft-author" src="https://f8n-production.imgix.net/collections/2mnxu5in5.gif"
+												alt="thegragonman-author">
+										</div>
+										<div class="auction__nft-info">
+											<div class="auction__nft-price">
+												<h3 class="nft-price-title">
+													TGM#94
+												</h3>
+												<h3 class="nft-price">
+													12.65 ETH
+												</h3>
+											</div>
+											<div class="nft-author">
+												<h3 class="nft-author-name">
+													TheGragonMan
+												</h3>
+												<h3 class="nft-author-name">
+													1 in stock
+												</h3>
+											</div>
+											<div class="nft-top-price">
+												<img src="./image/live-auction/top-pice-icon.svg" alt="top-pice-icon">
+												<h3>
+													Highest bid <span>0.02 Eth</span>
+												</h3>
+											</div>
+											<div class="nft-btn">
+												<a class="nft-btn-plece" href="#!">
+													Plece Bid
+												</a>
+												<a class="nft-btn-view nifter__dark-btn" href="#!">
+													View
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="auction__slide swiper-slide">
+									<div class="slide__block">
+										<div class="auction__nfts">
+											<img class="auction__nft" src="./image/live-auction/cybercuties.jpg" alt="cybercuties">
+											<div class="auction__nft-likes"><img data-id="icon-like"
+													src="./image/live-auction/auction-likes.svg" alt="like"></div>
+											<img class="auction__nft-author"
+												src="https://f8n-production-collection-assets.imgix.net/0x325E3eF7250E71910CBEb292baEbf65e05c68a71/pre_reveal/nft.gif"
+												alt="cybercuties-author">
+										</div>
+										<div class="auction__nft-info">
+											<div class="auction__nft-price">
+												<h3 class="nft-price-title">
+													CUTIES#3258
+												</h3>
+												<h3 class="nft-price">
+													26.79 ETH
+												</h3>
+											</div>
+											<div class="nft-author">
+												<h3 class="nft-author-name">
+													hackerman
+												</h3>
+												<h3 class="nft-author-name">
+													1 in stock
+												</h3>
+											</div>
+											<div class="nft-top-price">
+												<img src="./image/live-auction/top-pice-icon.svg" alt="top-pice-icon">
+												<h3>
+													Highest bid <span>0.02 Eth</span>
+												</h3>
+											</div>
+											<div class="nft-btn">
+												<a class="nft-btn-plece" href="#!">
+													Plece Bid
+												</a>
+												<a class="nft-btn-view nifter__dark-btna" href="#!">
+													View
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="auction__slide swiper-slide">
+									<div class="slide__block">
+										<div class="auction__nfts">
+											<img class="auction__nft" src="./image/live-auction/megz-img.jpg" alt="megz">
+											<div class="auction__nft-likes"><img data-id="icon-like"
+													src="./image/live-auction/auction-likes.svg" alt=""></div>
+											<img class="auction__nft-author" src="./image/live-auction/megz.jpg" alt="megz-author">
+										</div>
+										<div class="auction__nft-info">
+											<div class="auction__nft-price">
+												<h3 class="nft-price-title">
+													MEGZ#67
+												</h3>
+												<h3 class="nft-price">
+													0.92 ETH
+												</h3>
+											</div>
+											<div class="nft-author">
+												<h3 class="nft-author-name">
+													MEGZ
+												</h3>
+												<h3 class="nft-author-name">
+													1 in stock
+												</h3>
+											</div>
+											<div class="nft-top-price">
+												<img src="./image/live-auction/top-pice-icon.svg" alt="top-pice-icon">
+												<h3>
+													Highest bid <span>0.02 Eth</span>
+												</h3>
+											</div>
+											<div class="nft-btn">
+												<a class="nft-btn-plece" href="#!">
+													Plece Bid
+												</a>
+												<a class="nft-btn-view nifter__dark-btn" href="#!">
+													View
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="auction__slide swiper-slide">
+									<div class="slide__block">
+										<div class="auction__nfts">
+											<img class="auction__nft" src="./image/live-auction/retrowave61.jpg" alt="retrowave">
+											<div class="auction__nft-likes"><img data-id="icon-like"
+													src="./image/live-auction/auction-likes.svg" alt=""></div>
+											<img class="auction__nft-author" src="https://f8n-production.imgix.net/collections/am395elp7.gif"
+												alt="retrowave-author">
+										</div>
+										<div class="auction__nft-info">
+											<div class="auction__nft-price">
+												<h3 class="nft-price-title">
+													Retrowave#20
+												</h3>
+												<h3 class="nft-price">
+													65.4 ETH
+												</h3>
+											</div>
+											<div class="nft-author">
+												<h3 class="nft-author-name">
+													Retrowave
+												</h3>
+												<h3 class="nft-author-name">
+													1 in stock
+												</h3>
+											</div>
+											<div class="nft-top-price">
+												<img src="./image/live-auction/top-pice-icon.svg" alt="top-pice-icon">
+												<h3>
+													Highest bid <span>0.02 Eth</span>
+												</h3>
+											</div>
+											<div class="nft-btn">
+												<a class="nft-btn-plece" href="#!">
+													Plece Bid
+												</a>
+												<a class="nft-btn-view nifter__dark-btn" href="#!">
+													View
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="auction__slide swiper-slide">
+									<div class="slide__block">
+										<div class="auction__nfts">
+											<img class="auction__nft" src="./image/live-auction/seeyousmile.jpg" alt="seeyousmile">
+											<div class="auction__nft-likes"><img data-id="icon-like"
+													src="./image/live-auction/auction-likes.svg" alt=""></div>
+											<img class="auction__nft-author"
+												src="https://f8n-production-collection-assets.imgix.net/0x6B446809F9985b45B93f0Cf0Cf5538a992f13039/pre_reveal/nft.gif"
+												alt="seeyousmile-author">
+										</div>
+										<div class="auction__nft-info">
+											<div class="auction__nft-price">
+												<h3 class="nft-price-title">
+													See You Smile
+												</h3>
+												<h3 class="nft-price">
+													23.8 ETH
+												</h3>
+											</div>
+											<div class="nft-author">
+												<h3 class="nft-author-name">
+													Stardust
+												</h3>
+												<h3 class="nft-author-name">
+													1 in stock
+												</h3>
+											</div>
+											<div class="nft-top-price">
+												<img src="./image/live-auction/top-pice-icon.svg" alt="top-pice-icon">
+												<h3>
+													Highest bid <span>0.02 Eth</span>
+												</h3>
+											</div>
+											<div class="nft-btn">
+												<a class="nft-btn-plece" href="#!">
+													Plece Bid
+												</a>
+												<a class="nft-btn-view nifter__dark-btn" href="#!">
+													View
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="collection ">
+				<div class="collection__header">
+					<h2 class="nifter__heading">
+						Hot Collection
+					</h2>
+				</div>
+				<div class="collection__grid">
+					<a class="collection__grid-block" href="#!">
+						<div class="collection__block-images">
+							<div class="collection__images-top">
+								<img src="./image/hot-collection/abstract/abstract-one.jpg" alt="">
+								<img src="./image/hot-collection/abstract/abstract-two.jpg" alt="">
+								<img src="./image/hot-collection/abstract/abstract-three.jpg" alt="">
+							</div>
+							<div class="collection__images-bottom">
+								<img src="./image/hot-collection/abstract/abstract-four.jpg" alt="">
+							</div>
+						</div>
+						<div class="collection__block-section">
+							<h3 class="collection__section-name">
+								Abstract
+							</h3>
+							<h4 class="collection__items">
+								24 items
+							</h4>
+						</div>
+					</a>
+					<a class="collection__grid-block" href="#!">
+						<div class="collection__block-images">
+							<div class="collection__images-top">
+								<img src="./image/hot-collection/game/game-one.jpg" alt="">
+								<img src="./image/hot-collection/game/game-two.jpg" alt="">
+								<img src="./image/hot-collection/game/game-three.jpg" alt="">
+							</div>
+							<div class="collection__images-bottom">
+								<img src="./image/hot-collection/game/game-four.jpg" alt="">
+							</div>
+						</div>
+						<div class="collection__block-section">
+							<h3 class="collection__section-name">
+								Game
+							</h3>
+							<h4 class="collection__items">
+								27 items
+							</h4>
+						</div>
+					</a>
+					<a class="collection__grid-block" href="#!">
+						<div class="collection__block-images">
+							<div class="collection__images-top">
+								<img src="./image/hot-collection/3d/3d-one.jpg" alt="">
+								<img src="./image/hot-collection/3d/3d-two.jpg" alt="">
+								<img src="./image/hot-collection/3d/3d-three.jpg" alt="">
+							</div>
+							<div class="collection__images-bottom">
+								<img src="./image/hot-collection/3d/3d-four.jpg" alt="">
+							</div>
+						</div>
+						<div class="collection__block-section">
+							<h3 class="collection__section-name">
+								3D
+							</h3>
+							<h4 class="collection__items">
+								13 items
+							</h4>
+						</div>
+					</a>
+					<a class="collection__grid-block" href="#!">
+						<div class="collection__block-images">
+							<div class="collection__images-top">
+								<img src="./image/hot-collection/modern-art/modern-art-one.jpg" alt="">
+								<img src="./image/hot-collection/modern-art/modern-art-two.jpg" alt="">
+								<img src="./image/hot-collection/modern-art/modern-art-three.jpg" alt="">
+							</div>
+							<div class="collection__images-bottom">
+								<img src="./image/hot-collection/modern-art/modern-art-four.jpg" alt="">
+							</div>
+						</div>
+						<div class="collection__block-section">
+							<h3 class="collection__section-name">
+								Modern Art
+							</h3>
+							<h4 class="collection__items">
+								8 items
+							</h4>
+						</div>
+					</a>
+					<a class="collection__grid-block" href="#!">
+						<div class="collection__block-images">
+							<div class="collection__images-top">
+								<img src="./image/hot-collection/watercolor/watercolor-one.jpg" alt="">
+								<img src="./image/hot-collection/watercolor/watercolor-two.jpg" alt="">
+								<img src="./image/hot-collection/watercolor/watercolor-three.jpg" alt="">
+							</div>
+							<div class="collection__images-bottom">
+								<img src="./image/hot-collection/watercolor/watercolor-four.jpg" alt="">
+							</div>
+						</div>
+						<div class="collection__block-section">
+							<h3 class="collection__section-name">
+								Watercolor
+							</h3>
+							<h4 class="collection__items">
+								4 items
+							</h4>
+						</div>
+					</a>
+					<a class="collection__grid-block" href="#!">
+						<div class="collection__block-images">
+							<div class="collection__images-top">
+								<img src="./image/hot-collection/graffiti/graffiti-one.jpg" alt="">
+								<img src="./image/hot-collection/graffiti/graffiti-two.jpg" alt="">
+								<img src="./image/hot-collection/graffiti/graffiti-three.jpg" alt="">
+							</div>
+							<div class="collection__images-bottom">
+								<img src="./image/hot-collection/graffiti/graffiti-four.jpg" alt="">
+							</div>
+						</div>
+						<div class="collection__block-section">
+							<h3 class="collection__section-name">
+								Graffiti
+							</h3>
+							<h4 class="collection__items">
+								10 items
+							</h4>
+						</div>
+					</a>
+				</div>
+			</section>
+
+			<section class="artworks">
+				<div class="artworks__header nifter__heading">
+					<h2>Artworks</h2>
+				</div>
+				<nav class="artworks__nav">
+					<ul class="artworks__list">
+						<li class="artworks__link active">
+							<a href="#!">Recommendations</a>
+						</li>
+						<li class="artworks__link">
+							<a href="#!">Music</a>
+						</li>
+						<li class="artworks__link">
+							<a href="#!">Modern Art</a>
+						</li>
+						<li class="artworks__link">
+							<a href="#!">3d</a>
+						</li>
+						<li class="artworks__link">
+							<a href="#!">Watercolor</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="artwork__content">
+					<div class="artwork__content-blocks">
+						<a class="artwork__content-block" href="#!">
+							<div class="artwork__content-img">
+								<img src="./image/artworks/vaporart.jpg" alt="vapor art">
+							</div>
+							<div class="artwork__content-info">
+								<div class="artwork__content-txts">
+									<h3 class="artwork__content-name">Vapor Art</h3>
+									<h3 class="artwork__content-author">by weidner art</h3>
+									<h3 class="artwork__content-aviable">1 of 1 available</h3>
+								</div>
+								<div class="artwork__content-numbers">
+									<h3 class="artwork__content-price">
+										2.45 ETH
+									</h3>
+									<div class="artwork__neon"></div>
+									<div class="artwork__content-likes">
+										<img src="./image/artworks/artworks-likes.svg" alt="like">
+										<h3>50K</h3>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a class="artwork__content-block" href="#!">
+							<div class="artwork__content-img">
+								<img src="./image/artworks/angel.jpg" alt="angel">
+							</div>
+							<div class="artwork__content-info">
+								<div class="artwork__content-txts">
+									<h3 class="artwork__content-name">The Angel</h3>
+									<h3 class="artwork__content-author">by visual 3d</h3>
+									<h3 class="artwork__content-aviable">1 of 1 available</h3>
+								</div>
+								<div class="artwork__content-numbers">
+									<h3 class="artwork__content-price">
+										4.85 ETH
+									</h3>
+									<div class="artwork__neon"></div>
+									<div class="artwork__content-likes">
+										<img src="./image/artworks/artworks-likes.svg" alt="like">
+										<h3>30K</h3>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a class="artwork__content-block" href="#!">
+							<div class="artwork__content-img">
+								<img src="./image/artworks/aesthetic.jpg" alt="aesthetic">
+							</div>
+							<div class="artwork__content-info">
+								<div class="artwork__content-txts">
+									<h3 class="artwork__content-name">Aesthetic</h3>
+									<h3 class="artwork__content-author">by itvrn</h3>
+									<h3 class="artwork__content-aviable">1 of 1 available</h3>
+								</div>
+								<div class="artwork__content-numbers">
+									<h3 class="artwork__content-price">
+										1.98 ETH
+									</h3>
+									<div class="artwork__neon"></div>
+									<div class="artwork__content-likes">
+										<img src="./image/artworks/artworks-likes.svg" alt="like">
+										<h3>20K</h3>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a class="artwork__content-block" href="#!">
+							<div class="artwork__content-img">
+								<img src="./image/artworks/wadafox.jpg" alt="wadafox">
+							</div>
+							<div class="artwork__content-info">
+								<div class="artwork__content-txts">
+									<h3 class="artwork__content-name">Wadafox</h3>
+									<h3 class="artwork__content-author">by wonder art</h3>
+									<h3 class="artwork__content-aviable">1 of 1 available</h3>
+								</div>
+								<div class="artwork__content-numbers">
+									<h3 class="artwork__content-price">
+										5.11 ETH
+									</h3>
+									<div class="artwork__neon"></div>
+									<div class="artwork__content-likes">
+										<img src="./image/artworks/artworks-likes.svg" alt="like">
+										<h3>90K</h3>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="artwork__btn">
+					<a class="load-more-button" href="#!">Load More</a>
+				</div>
+			</section>
+
+			<section class="selling">
+				<div class="selling__main">
+					<div class="selling__text">
+						<div class="selling__text-block">
+							<h2 class="nifter__heading">Hot it Works</h2>
+							<h3>
+								Getting started and selling your
+								Nfts.Explore the full process so you
+								don't have any confusions.
+							</h3>
+							<a class="load-more-button" href="#!">Load More</a>
+						</div>
+					</div>
+					<div class="selling__content">
+						<div class="selling__content-blocks">
+							<a class="selling__content-border" href="#!">
+								<div class="selling__content-block">
+									<img src="./image/hot-it-workss/wallet.svg" alt="wallet">
+									<h3>Set up your wallet</h3>
+									<h4>
+										To set up Apple Pay, add a debit, credit, or prepaid card to the Wallet app on your iPhone, Apple
+										Watch, or other
+										compatible device.
+									</h4>
+								</div>
+							</a>
+							<a class="selling__content-border" href="#!">
+								<div class="selling__content-block">
+									<img src="./image/hot-it-workss/create-collection.svg" alt="wallet">
+									<h3>Create collection</h3>
+									<h4>
+										In the command, name is name of collection to be created. Options is a document and is used to
+										specify
+										configuration
+									</h4>
+								</div>
+							</a>
+						</div>
+						<div class="selling__content-blocks">
+							<a class="selling__content-border" href="#!">
+								<div class="selling__content-block">
+									<img src="./image/hot-it-workss/add-nft.svg" alt="wallet">
+									<h3>Add your NFTs</h3>
+									<h4>
+										If you want to create a series of NFTs, you can use a collection to do so — on Rarible, you can
+										create
+										one right from
+										the NFT creation screen
+									</h4>
+								</div>
+							</a>
+							<a class="selling__content-border" href="#!">
+								<div class="selling__content-block">
+									<img src="./image/hot-it-workss/list-items.svg" alt="wallet">
+									<h3>List item for sale</h3>
+									<h4>
+										Creating a listing is the first step in getting your item in front of ... We have a range of tools
+										and
+										options to help
+										make sure your listing ends in a sale.
+									</h4>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="creator">
+				<div class="creator__block">
+					<div class="creator__text">
+						<h3>
+							Are you a digital creator?
+						</h3>
+						<h4>
+							Learn how Marketplace helps you protect and sell your
+							unique digital creations, and join our growing community
+							of thousand digital creators
+						</h4>
+						<h5 class="" id="check-email">
+							ㅤ
+						</h5>
+						<form class="creator__email">
+							<input class="creator__input-email" id="creator-input" type="text" placeholder="Enter your email">
+							<button class="creator__get-started" type="submit" id="create-button">
+								Get started
+							</button>
+						</form>
+					</div>
+					<div class="creator__polygon">
+						<img src="./image/digital-creator/polygon.png" alt="polygon-coin">
+					</div>
+				</div>
+			</section>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__logo">
+				<div class="footer__header">
+					<img src="image/logo.svg" alt="">
+					<h2>Nifter</h2>
+				</div>
+				<div class="footer__logo-text">
+					<h3>
+						The worlds largest digital marketplace for
+						crypto collectibles and non
+						tokens (NFTs) Buy, Sell and discover
+						exclusive digital assets
+					</h3>
+				</div>
+				<div class="footer__logo-icons">
+					<a href="https://twitter.com/"><img src="./image/soc-icons/twitter.svg" alt="twitter"></a>
+					<a href="https://discord.com/"><img src="./image/soc-icons/ds.svg" alt="discord"></a>
+					<a href="https://www.instagram.com/"><img src="./image/soc-icons/inst.svg" alt="instagram"></a>
+					<a href="https://vk.com/"><img src="./image/soc-icons/vk.svg" alt="vk"></a>
+					<a href="https://www.facebook.com/"><img src="./image/soc-icons/fb.svg" alt="facebook"></a>
+				</div>
+			</div>
+			<div class="footer__navs">
+				<div class="footer__navs-grid">
+					<a class="footer__navs-link" href="#!">Explore</a>
+					<a class="footer__navs-link" href="#!">Account</a>
+					<a class="footer__navs-link" href="#!">Resources</a>
+					<a class="footer__navs-link" href="#!">Company</a>
+					<a class="footer__navs-link" href="#!">Art</a>
+					<a class="footer__navs-link" href="#!">Profile</a>
+					<a class="footer__navs-link" href="#!">Help centre</a>
+					<a class="footer__navs-link" href="#!">About</a>
+					<a class="footer__navs-link" href="#!">Photography</a>
+					<a class="footer__navs-link" href="#!">Collections</a>
+					<a class="footer__navs-link" href="#!">Partners</a>
+					<a class="footer__navs-link" href="#!">Careers</a>
+					<a class="footer__navs-link" href="#!">Music</a>
+					<a class="footer__navs-link" href="#!">Favorites</a>
+					<a class="footer__navs-link" href="#!">Suggestions</a>
+					<a class="footer__navs-link" href="#!">Rankings</a>
+					<a class="footer__navs-link" href="#!">Games</a>
+					<a class="footer__navs-link" href="#!">Settings</a>
+					<a class="footer__navs-link" href="#!">Newsletter</a>
+					<a class="footer__navs-link" href="#!">Activity</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/main.js"></script>
+	<script src="js/swiper-bundle.min.js" defer></script>
+	<script src="js/swiper-settings.js" defer></script>
+</body>
+
+</html>

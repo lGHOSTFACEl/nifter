@@ -1,0 +1,40 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Montserrat:wght@200;300;400;500;600&display=swap');
+@import "./swiper-bundle.min.css";
+@import "./style.css";
+@import "./adaptive.css";
+
+body {
+  font-family: 'Montserrat';
+  background-color: #1F1721;
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  background-image: none;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+a:active {
+  position: relative;
+  top: 1px;
+}
+
+.none {
+  display: none !important;
+}
