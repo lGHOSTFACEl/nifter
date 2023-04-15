@@ -273,7 +273,6 @@ document.addEventListener('DOMContentLoaded', function () {
 	initLikes();
 });
 
-swiper.on('slideChange', function () {
-	initLikes();
-});
-
+// swiper.on('slideChange', function () {
+// 	initLikes();
+// });
